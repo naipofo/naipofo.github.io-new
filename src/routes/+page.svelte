@@ -15,10 +15,7 @@
 		</a>
 	{/each}
 </div>
-
-<PhoneScreen>
-	----hello----<br />this site is not done yet, please check it out later!
-</PhoneScreen>
+<PhoneScreen text={'hello...           \nthis site is not done yet, please check it out later!'} />
 
 <style lang="scss">
 	:global(body) {
