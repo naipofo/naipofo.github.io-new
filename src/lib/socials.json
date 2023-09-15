@@ -1,0 +1,22 @@
+{
+    "links": [
+      {
+        "name": "Telegram",
+        "href": "https://t.me/aintmynamae",
+        "icon": "telegram.svg",
+        "nick": "@anintmynamae"
+      },
+      {
+        "name": "Github",
+        "href": "https://github.com/naipofo",
+        "icon": "github.svg",
+        "nick": "@naipofo"
+      },
+      {
+        "name": "Email",
+        "href": "mailto:athenaheki@gmail.com",
+        "icon": "email.svg",
+        "nick": "athenaheki@gmail.com"
+      }
+    ]
+  }
