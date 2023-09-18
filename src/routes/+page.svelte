@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { links } from '$lib/socials.json';
 	import PhoneScreen from './PhoneScreen.svelte';
+	import ProjectCard from './ProjectCard.svelte';
 </script>
 
 <h1>NaiPofo</h1>
@@ -16,6 +17,44 @@
 	{/each}
 </div>
 <PhoneScreen text={'hello...           \nthis site is not done yet, please check it out later!'} />
+
+<ProjectCard title="Yomishi">
+	<p>Pop-up dictonary for browsers, phones and anki. It's still <b>under development</b>.</p>
+</ProjectCard>
+
+<ProjectCard title="UtaViewer">
+	<p>Android application written in Kotlin that displays song lyrics.</p>
+</ProjectCard>
+
+<ProjectCard title="Flying Currency Converter">
+	<p>Currency converter that includes historical conversion graphs and the price of gold.</p>
+</ProjectCard>
+
+<ProjectCard title="Boxey System" github="boxey">
+	<p>
+		Package delivery and tracking system that is still <b>under development</b>.
+	</p>
+</ProjectCard>
+
+<ProjectCard title="Web Lab" github="weblabs">
+	<p>A statically generated website about unique web technologies.</p>
+</ProjectCard>
+
+<ProjectCard title="BiedBot">
+	<p>Telegram bot that automatically generates promo codes for a popular grocery store chain.</p>
+</ProjectCard>
+
+<ProjectCard title="Vin Watcher">
+	<p>Telegram bot for scraping and tracking offers on a popular online clothes retailer.</p>
+</ProjectCard>
+
+<ProjectCard title="Telegram Pixabay Bot" github="openPixabayBot">
+	<p>Telegram bot for searching and retriving images from the Pixabay image library.</p>
+</ProjectCard>
+
+<ProjectCard title="Anki JetMap">
+	<p>Dart CLI app that converts jetpunk quizes into anki flashcards.</p>
+</ProjectCard>
 
 <style lang="scss">
 	:global(body) {
